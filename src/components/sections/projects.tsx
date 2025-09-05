@@ -33,6 +33,15 @@ const projectsData = [
     github: "#",
     live: "#",
   },
+    {
+    title: "Phishing Email Detection",
+    description: "Developed a machine learning model to detect phishing emails, achieving 99% accuracy and significantly reducing the risk of cyber attacks.",
+    image: "https://picsum.photos/600/400?random=4",
+    imageHint: "email security",
+    tags: ["NLP", "TensorFlow", "Email", "Classification"],
+    github: "#",
+    live: "#",
+  },
 ];
 
 export default function Projects() {

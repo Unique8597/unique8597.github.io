@@ -4,24 +4,24 @@ import { Building, GraduationCap } from "lucide-react";
 const experienceData = [
   {
     icon: <Building />,
-    date: "2021 - Present",
-    title: "Senior Data Scientist",
-    company: "Innovatech Solutions",
+    date: "2024 - Present",
+    title: "Machine Learning Engineer",
+    company: "Rikruta",
     description: "Lead data science projects from conception to deployment. Developed predictive models that increased customer retention by 15%. Mentor junior data scientists and contribute to the development of our internal ML platform.",
   },
   {
     icon: <Building />,
-    date: "2018 - 2021",
-    title: "Data Scientist",
-    company: "DataDriven Inc.",
+    date: "2023 - 2024",
+    title: "Research Assistant",
+    company: "Ai4ce ltd",
     description: "Analyzed large datasets to identify trends and inform business strategy. Created dashboards and visualizations to communicate findings to stakeholders. Built and maintained data pipelines for model training and evaluation.",
   },
   {
     icon: <GraduationCap />,
-    date: "2014 - 2018",
-    title: "M.S. in Data Science",
-    company: "University of Technology",
-    description: "Focused on statistical modeling, machine learning algorithms, and big data technologies. Completed a thesis on natural language processing for sentiment analysis.",
+    date: "2018 - 2025",
+    title: "B.Eng. in Mechatronics Engineering",
+    company: "Federal University of Technology, Minna",
+    description: "Focused on Robotics, Automation and Artificial Intelligence. Completed a thesis on  Infant's Emotion Recognition System for a Caregiving Robot.",
   },
 ];
 

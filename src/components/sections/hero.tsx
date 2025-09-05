@@ -9,10 +9,10 @@ export default function Hero() {
       <div className="container grid grid-cols-1 md:grid-cols-2 items-center gap-12">
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight text-primary">
-            Jane Doe
+            Emmanuel Ani
           </h1>
           <p className="mt-2 font-headline text-2xl md:text-3xl font-medium text-foreground/80">
-            Data Scientist & AI Enthusiast
+            Data Scientist & ML Engineer
           </p>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
             Transforming complex data into actionable insights. Passionate about machine learning, data visualization, and building intelligent applications.
@@ -25,7 +25,7 @@ export default function Hero() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="/Resume.pdf" target="_blank">
                 <FileText className="mr-2 h-5 w-5" />
                 Download CV
               </Link>
@@ -34,8 +34,8 @@ export default function Hero() {
         </div>
         <div className="relative h-64 w-64 md:h-80 md:w-80 justify-self-center">
             <Image
-                src="https://picsum.photos/400/400"
-                alt="Jane Doe"
+                src="/portrait.jpg"
+                alt="Emmanuel Ani"
                 width={400}
                 height={400}
                 data-ai-hint="person portrait"
